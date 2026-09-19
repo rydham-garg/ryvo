@@ -114,7 +114,7 @@ h3 { font-size: 1.3rem; font-weight: 600; letter-spacing: -0.015em; }
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .brand { display: inline-flex; align-items: center; gap: .65rem; }
-.brand img { border-radius: 10px; }
+.logo-mark { border-radius: 10px; flex: none; }
 .brand-name { font: 700 1.3rem/1 "Space Grotesk", sans-serif; color: var(--ink); letter-spacing: -0.02em; }
 
 .nav { display: flex; align-items: center; gap: 2rem; }
@@ -166,7 +166,7 @@ h3 { font-size: 1.3rem; font-weight: 600; letter-spacing: -0.015em; }
   mask-image: linear-gradient(#000 65%, transparent);
 }
 .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: clamp(2rem, 5vw, 5rem); }
-.hero-name { font-size: clamp(3.1rem, 8vw, 6rem); font-weight: 700; letter-spacing: -0.04em; line-height: .98; }
+.hero-name { font-size: clamp(2.6rem, 6.4vw, 4.9rem); font-weight: 700; letter-spacing: -0.04em; line-height: .98; }
 .hero-role {
   margin-top: 1rem; font: 600 1.3rem/1.2 "Space Grotesk", sans-serif; color: var(--blue);
 }
@@ -377,6 +377,11 @@ h3 { font-size: 1.3rem; font-weight: 600; letter-spacing: -0.015em; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
+  .brand-name, .nav-cta { white-space: nowrap; }
+  .nav { gap: 1.1rem; }
+  .nav-list { gap: 1.1rem; }
+  .nav-link { font-size: .95rem; }
+  .nav-cta { padding: .75rem 1.1rem; }
   .services-grid, .work-grid { grid-template-columns: repeat(2, 1fr); }
 }
 

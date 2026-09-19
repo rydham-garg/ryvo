@@ -1,6 +1,6 @@
-# Ryvo Tech — Rydham Garg Portfolio
+# Ryvo Technologies — Rydham Garg Portfolio
 
-A fast, static, single-page portfolio for **Rydham Garg**, founder of **Ryvo Tech** (Ryvo Technologies).
+A fast, static, single-page portfolio for **Rydham Garg**, founder of **Ryvo Technologies**.
 Plain HTML, CSS and JavaScript. No build step, no backend, no database.
 
 ```text
@@ -8,12 +8,10 @@ ryvo-tech-portfolio/
 ├── index.html      ← all content lives here
 ├── styles.css      ← design (colours are at the top)
 ├── script.js       ← menu, scroll effects
-├── README.md
-└── assets/
-    ├── og-image.png    ← share preview image
-    ├── logo.svg
-    └── favicon.svg
+├── og-image.png    ← preview image for link shares (WhatsApp, LinkedIn, etc.)
+└── README.md
 ```
+All files sit in one flat folder, so there are no sub-folders to upload.
 
 ## 1. Fill in your details (5 minutes)
 
@@ -41,7 +39,7 @@ python3 -m http.server 8000
 1. Create a GitHub account at <https://github.com> if you don't have one.
 2. Click **+** (top right) → **New repository**. Name it, for example, `ryvo-tech` (or `YOUR-USERNAME.github.io` if you want the shortest address). Set it to **Public** and click **Create repository**.
 3. On the new repository page click **uploading an existing file**.
-4. Unzip the download, open the folder, and drag **the contents** (`index.html`, `styles.css`, `script.js`, `README.md`, and the `assets` folder) into the upload area.
+4. Unzip the download, open the folder, select all 5 files (`index.html`, `styles.css`, `script.js`, `og-image.png`, `README.md`) and drag them into the upload area. No folders are needed.
    `index.html` must be at the top level of the repository, not inside another folder.
 5. Scroll down and click **Commit changes**.
 6. Go to **Settings → Pages**.
@@ -62,7 +60,7 @@ Works as-is on Netlify, Vercel, Cloudflare Pages, or any static host: drag the f
 
 ## Customising
 - **Brand colour:** change `--blue` and `--blue-deep` at the top of `styles.css`.
-- **Photo:** none is used. To add one later, place it in `assets/` and add an `<img>` in the hero.
+- **Photo:** none is used. To add one later, upload it next to `index.html` and add an `<img>` in the hero.
 - **Nav or sections:** everything is plain, commented HTML.
 
 ## Notes
